@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+   
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3;
+}
+.header{
+    min-height: 100vh;  
+    height: 100%;
+    background-image: url('kitchen3.jpg');
+    background-size: cover;
+
+}
+.hero{
+    color: #663d00;
+    text-align: center;
+    padding-top: 20%;
+    font-size: larger;
+    font-size: 30px;
+}
+.booking{
+    border: 2px solid #663d00;
+    color: #663d00;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.booking:hover{
+    background-color:#663d00 ;
+    color: white;
+}
+
+.title-text{
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+    
+}
+/*************container starts**********************/
+.container{
+    margin: 10px 15px;
+    text-align: center;
+}
+.about{
+    margin: 5px;
+}
+
+.about-icon{
+    color: orange;
+    font-size: 60px;
+}
+.about-subtitle{
+    color: orange;
+    font-size: 30px;
+}
+.about-info{
+    color:black;
+    background-color:  #ebebe0;
+    border-radius: 7px;
+    font-weight: 600;
+
+}
+.about-icon:hover .fas,
+.about-subtitle:hover{
+    
+    transition: 1s ease , color 2s ease;
+    transform: translatey(-20px);
+    color: orangered;    
+    cursor: pointer;
+}
+/*
+@media screen and (min-width:576px) {
+    .about-center{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } /*
+    .about{
+        flex: 0 0 calc(50%- 16px);
+    }
+    
+}
+@media screen and (min-width:972px){
+    .about{
+        flex: calc(33.3%- 16px);
+    }
+    
+}
+*/
+
+/********our menu******************/
+.menu{
+    padding: 15px;
+}
+.menu-img{
+    height: 80vh;
+    background: url('our menu img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: fixed ;
+    background-repeat: no-repeat;
+}
+.menu-text{
+    height: 100vh;
+    align-items: center;
+    background: orange;
+    columns: black;
+    padding: 40px 0;
+    
+}
+.text-details{
+    text-align: center;
+}
+.our-menu{
+    font-size: 40px;
+}
+.exp{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.explore{
+    background-color: black;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.explore:hover{
+    background-color: white;
+    color: orangered;
+}
+@media screen and (min-width:10px) {
+    
+      
+     
+
+/***********social links******************/
+#social-links{
+    height: 150px;
+    background: white;
+    text-align: center;
+}
+
+#social-links a {
+    display: inline-block;
+    font-size: 40px;
+    padding:  5px;
+    
+    transition:  2s ease,color 2s ease;
+
+    
+}
+#social-links a:hover{
+    transform: translateY(-50px);
+}
+.ajinkya{
+    color: rgb(56, 20, 214);
+    margin-right: 20px;
+}
+.instagram{
+    color:  #ff0066;
+    margin-right: 20px;
+}
+.twitter{
+    color: 	 #00aaff;
+    margin-right: 20px;
+}
+.plus{
+    color: red;
+ 
+}
+/************dish****************************/
+.dish{
+    margin: 0;
+    padding: 0;
+    background: url('dish2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.numbers{
+    height: 120vh;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.icon 
+{
+    font-size: 30px;
+    
+    
+}
+.veg ,
+.Non-veg,
+.sea-food,
+.Breads{
+    color: gold;
+    
+}
+.colour-change{
+    color: black;
+    font-weight: 600;
+}
+}
+.icon:hover{
+   
+    border-radius: 12px;
+    color: orangered;
+    font-size: 50px;
+    transition: 2s ease-in-out, color 2s ease-in-out ;
+    transform: translateY(-20px);
+}
+
+/****************gallary*******************/
+.gallary{
+    margin: 5px 20%;
+    padding: 0;
+}
+.offers{
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid orange;
+    border-radius: 15px;
+
+
+}
+
+
+.biryani{
+    background: url('biryani.jpg');
+    height: 80vh;
+    background-position: left;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+.tandoori{
+    background: url('tandoori.jpg');
+    height: 80vh;
+    background-position: left;
+    background-size: cover;
+    border-radius: 20px;
+}
+.soups{
+    background: url('soup.jpg');
+    height: 80vh;
+    background-position: left;
+    background-size: cover;
+    border-radius: 20px;
+}
+.mixveg{
+    background: url('mixveg.jpg');
+    height: 80vh;
+    background-position: left;
+    background-size: cover;
+    border-radius: 20px;
+}
+.disc{
+    text-align: center;
+    padding-top: 30% ;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;  
+}
+
+.biryani,
+.tandoori,
+.soups,
+.mixveg{
+    margin: 10px;
+}
+
+.biryani:hover,
+.tandoori:hover,
+.soups:hover,
+.mixveg:hover{
+    opacity: 0.7;
+    border: 4px solid orange;
+    
+}
+.disc:hover{
+ font-size: 45px;
+ transition: 2s ease-in-out, color 2s ease-in-out ;
+ transform: translateY(-10px);
+}
+
+@media screen and (min-width:576px) {
+    .about-center 
+    {
+        display: flex;
+        
+        justify-content: space-around;
+    }
+@media screen and (min-width:576px) {
+        
+        .numbers{
+            display: flex;
+            
+            justify-content: space-around;
+             }
+             .icon{
+                 font-size: 50px;
+                 padding: 0 55px;
+             }
+             .colour-change{
+                 color: gold;
+             }
+
+
+
+    /*
+@media screen and (min-width:206px) {
+                .numbers{
+                    height: 150vh;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    
+                     }
+                     .icon{
+                         font-size: 50px;
+                         padding: 0 55px;
+                         
+                     }         
+                    */
